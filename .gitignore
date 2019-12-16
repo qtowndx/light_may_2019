@@ -31,3 +31,6 @@ nbproject/
 /docroot/.eslintignore
 /docroot/.editorconfig
 /docroot/.csslintrc
+
+#Ignore MyNotes
+MyNotes/
