@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+/**
+ * Implementing hook_preprocess().
+ */
+function bootsub_preprocess(&$variables, $hook) {
+ /**  kint($hook);
+   */ 
+}
+
+function bootsub_preprocess_page(&$variables){
+    if ($variables['is_front']) {
+        $variables['#attached']['library'][] = 'bootsub/homepage';
+    }
+}
+
+ 

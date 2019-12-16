@@ -1,0 +1,27 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+/* Remove navbar background
+-------------------------------------------------- */
+
+.navbar-default {
+    background-color: rgba(166, 153 ,138 ,1);
+}
+
+
+/*Banner image adjustment on front page*/
+.field--name-field-banner-image{
+    height:300px;
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:yellowgreen;
+}

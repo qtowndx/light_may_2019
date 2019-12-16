@@ -1,0 +1,21 @@
+global-styling:
+  version: VERSION
+  js: 
+    js/popper.min.js: {}
+    js/bootstrap.min.js: {}
+    js/global.js: {}
+  css:
+    component:
+      css/style.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    
+fonts:
+      css:
+          theme:
+              '//fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600&display=swap" rel="stylesheet': {type: external}
+              '//fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet': {type: external}
+              '//fonts.googleapis.com/css?family=Cormorant:500,500i,600&display=swap" rel="stylesheet': {type: external}
+              '//fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet': {type: external}
+              '//fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet': {type: external}
