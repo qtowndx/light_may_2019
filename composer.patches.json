@@ -1,0 +1,8 @@
+{
+    "patches": {
+        "drupal/core": {
+            "<patch 2869592>": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch "
+
+        }
+    }
+	 }
