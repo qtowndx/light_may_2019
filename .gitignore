@@ -25,6 +25,7 @@ vendor/
 
 # Ignore Netbeans
 nbproject/
+# Ignore other Drupal Core related
 /docroot/.ht.router.php
 /docroot/.gitattributes
 /docroot/.eslintrc.json
