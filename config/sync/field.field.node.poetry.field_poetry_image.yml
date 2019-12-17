@@ -1,0 +1,28 @@
+uuid: 295a833b-f8ab-415d-8c7a-64d2fe32fdb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_poetry_image
+    - media.type.image
+    - node.type.poetry
+id: node.poetry.field_poetry_image
+field_name: field_poetry_image
+entity_type: node
+bundle: poetry
+label: 'Poetry Image'
+description: 'Image for poem'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: 80643f7e-6b82-4b3f-a5c2-c46b5b5c0116
+langcode: en
+status: true
+dependencies: {  }
+id: poetry_reviewer
+label: 'Poetry reviewer'
+weight: 8
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any poetry content'
+  - 'edit any poetry content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

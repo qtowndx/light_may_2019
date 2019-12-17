@@ -1,0 +1,14 @@
+uuid: 6a8640ae-287a-48e5-9c67-e7eb434db638
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.poetry_creator
+  module:
+    - user
+id: user_remove_role_action.poetry_creator
+label: 'Remove the Poetry creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: poetry_creator

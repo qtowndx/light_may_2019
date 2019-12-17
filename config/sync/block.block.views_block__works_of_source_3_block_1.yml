@@ -1,0 +1,33 @@
+uuid: 68734c62-b81f-4472-b40e-bb032294e9ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.works_of_source_3
+  module:
+    - ctools
+    - views
+  theme:
+    - bootstrap_sass
+id: views_block__works_of_source_3_block_1
+theme: bootstrap_sass
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:works_of_source_3-block_1'
+settings:
+  id: 'views_block:works_of_source_3-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      source: source
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

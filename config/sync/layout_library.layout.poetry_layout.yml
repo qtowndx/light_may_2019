@@ -1,0 +1,9 @@
+uuid: b4241001-3a3f-47ca-9277-c58be9348021
+langcode: en
+status: true
+dependencies: {  }
+id: poetry_layout
+label: Poetry_Layout
+targetEntityType: node
+targetBundle: poetry
+layout: {  }

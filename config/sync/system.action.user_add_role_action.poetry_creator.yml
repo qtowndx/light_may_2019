@@ -1,0 +1,14 @@
+uuid: 96ea2e25-a646-4940-a943-17a5f3339b5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.poetry_creator
+  module:
+    - user
+id: user_add_role_action.poetry_creator
+label: 'Add the Poetry creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: poetry_creator

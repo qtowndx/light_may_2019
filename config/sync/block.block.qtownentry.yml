@@ -1,0 +1,31 @@
+uuid: 73b4a95a-74c1-43eb-9802-ebcdc013e402
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner:1f0c3f59-4365-454f-8fe7-1f036358c69e'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootsub
+id: qtownentry
+theme: bootsub
+region: header
+weight: -6
+provider: null
+plugin: 'block_content:1f0c3f59-4365-454f-8fe7-1f036358c69e'
+settings:
+  id: 'block_content:1f0c3f59-4365-454f-8fe7-1f036358c69e'
+  label: 'Qtown Entry'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

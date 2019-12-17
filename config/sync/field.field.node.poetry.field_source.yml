@@ -1,0 +1,32 @@
+uuid: 089ecee8-926e-4e1d-8a62-c7f872be1abe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_source
+    - node.type.poetry
+    - node.type.source
+  content:
+    - 'node:source:5f0b72d9-94eb-42bd-95b9-171a6952524a'
+id: node.poetry.field_source
+field_name: field_source
+entity_type: node
+bundle: poetry
+label: Source
+description: 'Author entry'
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 5f0b72d9-94eb-42bd-95b9-171a6952524a
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      source: source
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

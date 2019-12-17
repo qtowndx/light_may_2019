@@ -1,0 +1,25 @@
+uuid: fade5485-2ec4-45f0-b193-3f4dd6b7c4e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.source_list
+  module:
+    - views
+  theme:
+    - bootstrap_sass
+id: views_block__source_list_block_1
+theme: bootstrap_sass
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:source_list-block_1'
+settings:
+  id: 'views_block:source_list-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

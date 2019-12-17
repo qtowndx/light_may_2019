@@ -1,0 +1,22 @@
+uuid: b95bc422-6b16-402d-a90c-f6f774aef30c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: poetry_url
+label: 'Poetry URL'
+type: 'canonical_entities:node'
+pattern: 'poetry/[node:title]'
+selection_criteria:
+  a7ccdcc9-350d-44b7-b507-23f751c3e1de:
+    id: node_type
+    bundles:
+      poetry: poetry
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a7ccdcc9-350d-44b7-b507-23f751c3e1de
+selection_logic: and
+weight: -5
+relationships: {  }

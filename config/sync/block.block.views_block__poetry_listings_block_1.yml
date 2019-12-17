@@ -1,0 +1,24 @@
+uuid: 68043717-1b20-424b-b6a8-ecd6daef2a39
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.poetry_listings
+  module:
+    - views
+  theme:
+    - bootstrap_sass
+id: views_block__poetry_listings_block_1
+theme: bootstrap_sass
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:poetry_listings-block_1'
+settings:
+  id: 'views_block:poetry_listings-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

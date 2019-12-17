@@ -1,0 +1,21 @@
+uuid: 5f02a726-5a8a-4435-b41e-b20c0f633e1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_selection
+    - node.type.landing_page
+id: node.landing_page.layout_selection
+field_name: layout_selection
+entity_type: node
+bundle: landing_page
+label: Layout
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: layout_library
+  handler_settings: {  }
+field_type: entity_reference

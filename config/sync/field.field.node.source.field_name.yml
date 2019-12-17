@@ -1,0 +1,24 @@
+uuid: 09ca505d-b9d8-4b59-b984-ee5bb73d6161
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.source
+  module:
+    - text
+id: node.source.field_name
+field_name: field_name
+entity_type: node
+bundle: source
+label: Name
+description: 'Name of author. Not needed as Title is name.'
+required: false
+translatable: false
+default_value:
+  -
+    value: Name
+    format: rich_text
+default_value_callback: ''
+settings: {  }
+field_type: text

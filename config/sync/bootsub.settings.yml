@@ -1,0 +1,37 @@
+schemas:
+  bootstrap: 8000
+  bootsub: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: profiles/contrib/lightning/favicon.ico
+  url: 'http://localhost/light_may_2019/docroot/profiles/contrib/lightning/favicon.ico'
+  use_default: 0
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: 1
+  node_user_picture: 1
+logo:
+  path: profiles/contrib/lightning/lightning.png
+  url: ''
+  use_default: 0
+table_responsive: '-1'
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''
+region_wells:
+  topmost: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: 'well well-lg'
+  sidebar_first: 'well well-lg'
+  sidebar_second: ''
+  footer: ''
+navbar_position: fixed-top

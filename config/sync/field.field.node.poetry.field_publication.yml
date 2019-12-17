@@ -1,0 +1,24 @@
+uuid: df87e921-16e7-4908-86be-df327a42f5ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publication
+    - node.type.poetry
+  module:
+    - text
+id: node.poetry.field_publication
+field_name: field_publication
+entity_type: node
+bundle: poetry
+label: Publication
+description: 'Original source'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Name of publication'
+    format: rich_text
+default_value_callback: ''
+settings: {  }
+field_type: text

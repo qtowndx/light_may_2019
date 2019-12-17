@@ -1,0 +1,14 @@
+uuid: a1b691a9-32fd-4a77-aaae-7aabb4efbfa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.source_creator
+  module:
+    - user
+id: user_add_role_action.source_creator
+label: 'Add the Source creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: source_creator

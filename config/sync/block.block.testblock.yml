@@ -1,0 +1,25 @@
+uuid: 218756f1-ae63-481a-8df6-d64ed06ea2c5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text:874fdc25-b45b-4430-bd41-4e101cc9286f'
+  module:
+    - block_content
+  theme:
+    - bootstrap_sass
+id: testblock
+theme: bootstrap_sass
+region: footer_second
+weight: -7
+provider: null
+plugin: 'block_content:874fdc25-b45b-4430-bd41-4e101cc9286f'
+settings:
+  id: 'block_content:874fdc25-b45b-4430-bd41-4e101cc9286f'
+  label: 'Test block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

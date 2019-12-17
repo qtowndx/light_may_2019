@@ -1,0 +1,30 @@
+uuid: a2a83e5c-c2cb-4d8b-96e9-a84e94fe18dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.poetry.body
+    - node.type.poetry
+  module:
+    - text
+    - user
+id: node.poetry.teaser
+targetEntityType: node
+bundle: poetry
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

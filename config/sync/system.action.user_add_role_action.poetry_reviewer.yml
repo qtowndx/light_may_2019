@@ -1,0 +1,14 @@
+uuid: e9d7b923-4bca-428b-b538-8327c2179b15
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.poetry_reviewer
+  module:
+    - user
+id: user_add_role_action.poetry_reviewer
+label: 'Add the Poetry reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: poetry_reviewer

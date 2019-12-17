@@ -1,0 +1,8 @@
+uuid: d4d23f8f-c1aa-45c9-84db-7b60a0abca74
+langcode: en
+status: true
+dependencies: {  }
+id: copyright
+label: Copyright
+revision: 1
+description: 'This block contains the copyright'

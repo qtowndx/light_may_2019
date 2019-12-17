@@ -1,0 +1,20 @@
+uuid: 8cb86c4d-d698-49ca-a9d3-b41bacedea3e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootsub
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: bootsub_page_title
+theme: bootsub
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

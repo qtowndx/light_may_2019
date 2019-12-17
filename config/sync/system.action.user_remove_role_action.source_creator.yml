@@ -1,0 +1,14 @@
+uuid: 843bcd7d-141f-46e9-916b-ed86abd1b4db
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.source_creator
+  module:
+    - user
+id: user_remove_role_action.source_creator
+label: 'Remove the Source creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: source_creator

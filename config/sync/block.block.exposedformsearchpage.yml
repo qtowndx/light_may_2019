@@ -1,0 +1,23 @@
+uuid: bca8ec9d-70ae-466e-8d1e-dab629dbc2f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - views
+  theme:
+    - bootsub
+id: exposedformsearchpage
+theme: bootsub
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_exposed_filter_block:search-page'
+settings:
+  id: 'views_exposed_filter_block:search-page'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

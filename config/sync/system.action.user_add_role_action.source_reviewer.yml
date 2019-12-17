@@ -1,0 +1,14 @@
+uuid: 077b06ff-aadb-48be-a7de-05fa88c48cbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.source_reviewer
+  module:
+    - user
+id: user_add_role_action.source_reviewer
+label: 'Add the Source reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: source_reviewer

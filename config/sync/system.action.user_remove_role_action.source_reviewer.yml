@@ -1,0 +1,14 @@
+uuid: 624acdd0-ec5a-490e-8e7d-6f89b35a9468
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.source_reviewer
+  module:
+    - user
+id: user_remove_role_action.source_reviewer
+label: 'Remove the Source reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: source_reviewer

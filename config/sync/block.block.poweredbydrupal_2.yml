@@ -1,0 +1,20 @@
+uuid: 35ef6535-477f-41fa-a57d-744d1cd88a43
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_sass
+id: poweredbydrupal_2
+theme: bootstrap_sass
+region: sidebar_second
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

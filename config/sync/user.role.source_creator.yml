@@ -1,0 +1,27 @@
+uuid: da4ab0ff-3429-4532-83b6-ae6d1ca8d0d3
+langcode: en
+status: true
+dependencies: {  }
+id: source_creator
+label: 'Source creator'
+weight: 9
+is_admin: false
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'configure any layout'
+  - 'create source content'
+  - 'create url aliases'
+  - 'edit own source content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view source revisions'

@@ -1,0 +1,23 @@
+uuid: 41bb8b7a-993a-41a9-b634-1d260adc014e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - views
+  theme:
+    - seven
+id: exposedformsearchpage_2
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:search-page'
+settings:
+  id: 'views_exposed_filter_block:search-page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility: {  }

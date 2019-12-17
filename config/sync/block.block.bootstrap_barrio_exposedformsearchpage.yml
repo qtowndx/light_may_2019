@@ -1,0 +1,23 @@
+uuid: 96ff7803-8739-49f9-985e-75ad43f3faf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_exposedformsearchpage
+theme: bootstrap_barrio
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_exposed_filter_block:search-page'
+settings:
+  id: 'views_exposed_filter_block:search-page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility: {  }

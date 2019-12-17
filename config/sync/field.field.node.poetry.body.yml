@@ -1,0 +1,22 @@
+uuid: bff51e51-809b-4a70-b339-17b08fefd55e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.poetry
+  module:
+    - text
+id: node.poetry.body
+field_name: body
+entity_type: node
+bundle: poetry
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
